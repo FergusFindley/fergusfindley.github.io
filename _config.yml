@@ -6,20 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Piotr Migdał - blog
-email: pmigdal@gmail.com
+title: Fergus Findley - blog
+email: fergusfindley@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Piotr Migdał - a data science freelancer, with PhD in quantum physics; based in Warsaw, Poland.
-  Active in gifted education, developing a Quantum Game.
+  Fergus Findley - a data science and Machine Learning enthusiast. I like to practice and do some projects about data science.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://p.migdal.pl" # the base hostname & protocol for your site
+url: "http://fergusfindley.github.io" # the base hostname & protocol for your site
 usernames:
-  twitter: pmigdal
-  github:  stared
-  linkedin: piotrmigdal
-  stackexchange: 506817/piotr-migdal
-  delicious: stared
-  pinboard: pmigdal
+  twitter: 
+  github:  fergusfindley
+  linkedin: 
+  stackexchange: 
+  delicious: 
+  pinboard: 
 
 # Build settings
 markdown: kramdown
