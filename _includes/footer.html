@@ -1,0 +1,47 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col footer-col-1">
+        <img src="{{ site.url }}/imgs/global/piotr_migdal_2016_london_300sq.jpg" alt="Piotr Migdał - as of 2013" width="150px" height="150px" />
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="contact-list">
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="{{ site.url }}">{{ site.url }}</a></li>
+        </ul>
+        <ul class="social-media-list">
+          <li>
+            {% include icon-github.html username=site.usernames.github %}
+          </li>
+          <li>
+            {% include icon-twitter.html username=site.usernames.twitter %}
+          </li>
+          <li>
+            <a href="https://pinboard.in/u:{{ site.usernames.pinboard }}/">
+              <span class="icon icon--pinboard">{% include icon-pinboard.svg %}</span>
+            </a>
+            <a href="https://linkedin.com/in/{{ site.usernames.linkedin }}">
+              <span class="fa fa-linkedin-square" style="color:#828282"></span>
+            </a>
+            <a href="https://stackexchange.com/users/{{ site.usernames.stackexchange }}">
+              <span class="fa fa-stack-overflow" style="color:#828282"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Piotr Migdał - a data science freelancer, with PhD in quantum physics; based in Warsaw, Poland. Believing in <a href="http://crastina.se/theres-no-projects-like-side-projects/">side projects</a>, active in <a href="https://warsztatywww.pl/article/en-indie-camp-for-hs-geeks/">gifted education</a>, developing the <a href="http://quantumgame.io/">Quantum Game</a> and working as a data science instructor at <a href="http://deepsense.ai/">deepsense.ai</a>.</p>
+
+        <p>Python (+ ε of R) for data analysis and machine learning, JavaScript for data visualization. Currently focusing on deep learning.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
