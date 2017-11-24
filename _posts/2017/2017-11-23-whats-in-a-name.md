@@ -1,4 +1,15 @@
-
+---
+layout: post
+title: "What's in a name?"
+date: '2017-11-22 18:26 +0100'
+author: Fergus Findley
+tags:
+  - learning
+  - DataCamp
+description: >-
+  DataCamp project.``
+image: 
+---
 ## 1. Introduction to Baby Names Data
 <blockquote>
   <p>What’s in a name? That which we call a rose, By any other name would smell as sweet.</p>
@@ -312,7 +323,7 @@ num_peaks_deneen    = 1
 ```
 
 
-![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_7_0.png)
+![png](/imgs/2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_7_0.png)
 
 
 ## 5. Trendy vs. Stable Names
@@ -575,7 +586,7 @@ lifetables_2016.plot(x='year', y='lx')
 
 
 
-![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_11_1.png)
+![png](/imgs/2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_11_1.png)
 
 
 
@@ -592,7 +603,7 @@ lifetables_2016[lifetables_2016.sex=='F'].plot(x='year', y='lx', label='F', ax=a
 
 
 
-![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_12_1.png)
+![png](/imgs/2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_12_1.png)
 
 
 ## 7. Smoothen the Curve!
@@ -718,11 +729,11 @@ plot_data('Brittany','F')
 ```
 
 
-![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_16_0.png)
+![png](/imgs/2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_16_0.png)
 
 
 
-![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_16_1.png)
+![png](/imgs/2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_16_1.png)
 
 
 ## 9. Estimate Age
