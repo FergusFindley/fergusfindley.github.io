@@ -151,7 +151,7 @@ plt.ylabel('...')
 
 
 
-![png]({{ site.url }}/imgs/2017-11-22-introduction-to-datacamp-projects_files/2017-11-22-introduction-to-datacamp-projects_7_1.png)
+![png](/imgs/2017-11-22-introduction-to-datacamp-projects_files/2017-11-22-introduction-to-datacamp-projects_7_1.png)
 
 
 ## 5. Jupyter notebooks ♡ a lot more
