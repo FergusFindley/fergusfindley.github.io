@@ -1,3 +1,17 @@
+---
+layout: post
+title: "Exploring 67 years of LEGO"
+date: '2017-11-22 19:26 +0100'
+author: Fergus Findley
+tags:
+  - learning
+  - DataFrame
+  - pandas
+  - DataCamp
+description: >-
+  DataCamp project.``
+image: https://s3.amazonaws.com/assets.datacamp.com/production/project_10/datasets/lego-bricks.jpeg
+---
 
 ## 1. Introduction
 <p>Everyone loves Lego (unless you ever stepped on one). Did you know by the way that "Lego" was derived from the Danish phrase leg godt, which means "play well"? Unless you speak Danish, probably not. </p>
