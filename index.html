@@ -26,31 +26,4 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> or <a href="http://quantumgame.us9.list-manage.com/subscribe?u=5e3bdb13b61924c4b0ec92fba&id=6c72ded7d2">via email (MailChimp)</a></p>
 
-  <h1 class="page-heading">My talks and workshops (upcoming and recent)</h1>
-  <ul class="event-list">
-  {% for event in site.data.events %}
-    {% capture nowunix %}{{site.time | date: '%s' | minus: 1209600}}{% endcapture %}
-    {% capture eventtime %}{{event.date | date: '%s'}}{% endcapture %}
-    {% if eventtime >= nowunix %}
-    <li>
-      <span class="post-meta">
-        {{ event.date | date: "%-d %b %Y" }}
-        •
-        {{ event.place}}
-        •
-        {% for tag in event.tags %}
-          <span>[{{ tag }}]</span>
-        {% endfor %}
-      </span>
-      <br>
-      <a class="post-link" href="{{ event.href }}">{{ event.talk }}</a>
-      {% if event.slides %}
-        (<a href="{{ event.slides }}">slides</a>!)
-      {% endif %}
-      <span class="post-meta">@ {{ event.event }}</span>
-    </li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-
 </div>
