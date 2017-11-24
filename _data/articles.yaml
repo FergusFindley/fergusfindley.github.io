@@ -1,5 +1,12 @@
+- title: A Guide to Time Series Forecasting with Prophet in Python 3 
+  at:    digitalocean.com
+  href:  https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-prophet-in-python-3
+  date:  2017-04-04
+  tags:  [time-series,python]
+
 - title: From Science to Data Science, a Comprehensive Guide for Transition
   at:    KDnuggets
   href:  http://www.kdnuggets.com/2016/04/data-science-comprehensive-guide-transition.html
   date:  2016-04-12
   tags:  [externap-post,reprint]
+
