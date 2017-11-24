@@ -7,7 +7,7 @@ layout: default
   <h1 class="page-heading">Recent posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts limit:1%}
+    {% for post in site.posts limit:3%}
       {% unless post.unlisted %}
         <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
