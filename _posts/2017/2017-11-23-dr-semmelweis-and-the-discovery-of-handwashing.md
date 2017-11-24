@@ -1,4 +1,15 @@
-
+---
+layout: post
+title: "Dr. Semmelweis and the discovery of handwashing"
+date: '2017-11-23 16:03 +0100'
+author: Fergus Findley
+tags:
+  - learning
+  - DataCamp
+description: >-
+  DataCamp project.``
+image: 
+---
 ## 1. Meet Dr. Ignaz Semmelweis
 <p><img style="float: left;margin:5px 20px 5px 1px" src="https://s3.amazonaws.com/assets.datacamp.com/production/project_20/datasets/ignaz_semmelweis_1860.jpeg"></p>
 <!--
@@ -263,7 +274,7 @@ ax.set_ylabel('proportion of deaths versus births')
 
 
 
-![png](2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_files/2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_5_1.png)
+![png](/imgs/2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_files/2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_5_1.png)
 
 
 ## 4. The handwashing begins
@@ -371,7 +382,7 @@ ax.set_ylabel('Proportion deaths')
 
 
 
-![png](2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_files/2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_9_1.png)
+![png](/imgs/2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_files/2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_9_1.png)
 
 
 ## 6. The effect of handwashing highlighted
@@ -396,7 +407,7 @@ ax.set_ylabel=('Proportion deaths')
 ```
 
 
-![png](2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_files/2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_11_0.png)
+![png](/imgs/2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_files/2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing_11_0.png)
 
 
 ## 7. More handwashing, fewer deaths?
