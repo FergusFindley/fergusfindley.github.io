@@ -1,17 +1,4 @@
----
-layout: post
-title: "What's in a name"
-date: '2017-11-23 19:26 +0100'
-author: Fergus Findley
-tags:
-  - learning
-  - DataFrame
-  - pandas
-  - DataCamp
-description: >-
-  DataCamp project.``
-image: 
----
+
 ## 1. Introduction to Baby Names Data
 <blockquote>
   <p>What’s in a name? That which we call a rose, By any other name would smell as sweet.</p>
@@ -35,6 +22,19 @@ bnames.head()
 
 
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -87,37 +87,6 @@ bnames.head()
 
 
 
-
-```python
-%%nose
-def test_bnames_exists():
-    """bnames is defined."""
-    assert 'bnames' in globals(), "You should have defined a variable named bnames"
-# bnames is a dataframe with 1891894 rows and 4 columns
-def test_bnames_dataframe():
-    """bnames is a DataFrame with 1891894 rows and 4 columns"""
-    import pandas as pd
-    assert isinstance(bnames, pd.DataFrame)
-    assert bnames.shape[0] == 1891894, "Your  DataFrame, bnames, should contain 1891984 rows"
-    assert bnames.shape[1] == 4, "Your DataFrame, bnames, should contain 4 columns"
-
-# bnames has column names ['name', 'sex', 'births', 'year']
-def test_bnames_colnames():
-    """bnames has column names ['name', 'sex', 'births', 'year']"""
-    colnames = ['name', 'sex', 'births', 'year']
-    assert all(name in bnames for name in colnames), "Your DataFrame, bnames, should have columns named name, sex, births and year"
-```
-
-
-
-
-
-
-    3/3 tests passed
-    
-
-
-
 ## 2. Exploring Trends in Names
 <p>One of the first things we want to do is to understand naming trends. Let us start by figuring out the top five most popular male and female names for this decade (born 2011 and later). Do you want to make any guesses? Go on, be a sport!!</p>
 
@@ -136,6 +105,19 @@ bnames_top5
 
 
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -212,47 +194,6 @@ bnames_top5
 
 
 
-
-```python
-%%nose
-def test_bnames_top5_exists():
-    """bnames_top5 is defined."""
-    assert 'bnames_top5' in globals(), \
-      "You should have defined a variable named bnames_top5."
-
-def test_bnames_top5_df():
-    """Output is a DataFrame with 10 rows and 3 columns."""
-    assert bnames_top5.shape == (10, 3), \
-      "Your DataFrame, bnames_top5, should have 10 rows and 3 columns."
-
-def test_bnames_top5_df_colnames():
-    """Output has column names: name, sex, births."""
-    assert all(name in bnames_top5 for name in ['name', 'sex', 'births']), \
-      "Your DataFrame, bnames_top5 should have columns named name, sex, births."
-
-def test_bnames_top5_df_contains_names():
-    """Output has the follwing female names: Emma, Sophia, Olivia, Isabella, Ava"""
-    target_names = ['Emma', 'Sophia', 'Olivia', 'Isabella', 'Ava']
-    assert set(target_names).issubset(bnames_top5['name']), \
-      "Your DataFrame, bnames_top5 should contain the female names: Emma, Sophia, Olivia, Isabella, Ava"
-
-def test_bnames_top5_df_contains_female_names():
-    """Output has the following male names: Noah, Mason, Jacob, Liam, William"""
-    target_names = ['Noah', 'Mason', 'Jacob', 'Liam', 'William']
-    assert set(target_names).issubset(bnames_top5['name']), \
-      "Your DataFrame, bnames_top5 should contain the male names: Noah, Mason, Jacob, Liam, William"
-```
-
-
-
-
-
-
-    5/5 tests passed
-    
-
-
-
 ## 3. Proportion of Births
 <p>While the number of births is a useful metric, making comparisons across years becomes difficult, as one would have to control for population effects. One way around this is to normalize the number of births by the total number of births in that year.</p>
 
@@ -271,6 +212,19 @@ bnames2.head()
 
 
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -329,41 +283,6 @@ bnames2.head()
 
 
 
-
-```python
-%%nose
-def test_bnames2_exists():
-    """bnames2 is defined."""
-    assert 'bnames2' in globals(),\
-      "You should have defined a variable named bnames2."
-    
-def test_bnames2_dataframe():
-    """bnames2 is a DataFrame with 1891894 rows and 5 columns"""
-    import pandas as pd
-    assert isinstance(bnames2, pd.DataFrame)
-    assert bnames2.shape[1] == 5,\
-      "Your DataFrame, bnames2, should have 5 columns"
-    assert bnames2.shape[0] == 1891894,\
-      "Your DataFrame, bnames2,  should have 1891894 rows"
-
-
-def test_bnames2_colnames():
-    """bnames2 has column names ['name', 'sex', 'births', 'year', 'prop_births']"""
-    colnames = ['name', 'sex', 'births', 'year', 'prop_births']
-    assert all(name in bnames2 for name in colnames),\
-      "Your DataFrame, bnames2, should have column names 'name', 'sex', 'births', 'year', 'prop_births'"
-```
-
-
-
-
-
-
-    3/3 tests passed
-    
-
-
-
 ## 4. Popularity of Names
 <p>Now that we have the proportion of births, let us plot the popularity of a name through the years. How about plotting the popularity of the female names <code>Elizabeth</code>, and <code>Deneen</code>, and inspecting the underlying trends for any interesting patterns!</p>
 
@@ -393,31 +312,7 @@ num_peaks_deneen    = 1
 ```
 
 
-![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_10_0.png)
-
-
-
-```python
-%%nose
-def test_peaks_elizabeth():
-    """The name Elizabeth peaks 3 times."""
-    assert num_peaks_elizabeth == 3, \
-      "The name Elizabeth peaks 3 times"
-    
-def test_peaks_deneen():
-    """The name Deneen peaks 1 time."""
-    assert num_peaks_deneen == 1, \
-      "The name Deneen peaks only once"
-```
-
-
-
-
-
-
-    2/2 tests passed
-    
-
+![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_7_0.png)
 
 
 ## 5. Trendy vs. Stable Names
@@ -454,6 +349,19 @@ top10_trendy_names
 
 
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -549,46 +457,6 @@ top10_trendy_names
   </tbody>
 </table>
 </div>
-
-
-
-
-```python
-%%nose
-def test_top10_trendy_names_exists():
-    """top10_trendy_names is defined"""
-    assert 'top10_trendy_names' in globals(), \
-      "You should have defined a variable namedtop10_trendy_names."
-def test_top10_trendy_df():
-    """top10_trendy_names is a dataframe with 10 rows and 5 columns."""
-    assert top10_trendy_names.shape == (10, 5), \
-      "Your data frame, top10_trendy_names, should have 10 rows and 5 columns."
-
-def test_top10_trendy_df_colnames():
-    """top10_trendy_names has column names: name, sex, births, max and trendiness"""
-    assert all(name in top10_trendy_names for name in ['name', 'sex', 'total', 'max', 'trendiness']), \
-       "Your data frame, top10_trendy_names, should have column names: name, sex, births, max and trendiness"
-
-def test_top10_trendy_df_contains_female_names():
-    """top10_trendy_names has the follwing female names: Royalty, Kizzy, Aitana, Deneen, Moesha, Marely, Tennille, Kadijah"""
-    target_names = ['Royalty', 'Kizzy', 'Aitana', 'Deneen', 'Moesha', 'Marely', 'Tennille', 'Kadijah']
-    assert set(target_names).issubset(top10_trendy_names['name']), \
-      "Your data frame, top10_trendy_names, should have female names: Royalty, Kizzy, Aitana, Deneen, Moesha, Marely, Tennille, Kadijah."
-
-def test_top10_trendy_df_contains_male_names():
-    """top10_trendy_names has the following male names: Christop, Kanye"""
-    target_names = ['Christop', 'Kanye']
-    assert set(target_names).issubset(top10_trendy_names['name']), \
-      "Your data frame, top10_trendy_names, should have male names: Christop, Kanye"
-```
-
-
-
-
-
-
-    5/5 tests passed
-    
 
 
 
@@ -702,12 +570,12 @@ lifetables_2016.plot(x='year', y='lx')
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x7f7533381048>
+    <matplotlib.axes._subplots.AxesSubplot at 0xd3ddb70>
 
 
 
 
-![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_16_1.png)
+![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_11_1.png)
 
 
 
@@ -719,45 +587,12 @@ lifetables_2016[lifetables_2016.sex=='F'].plot(x='year', y='lx', label='F', ax=a
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x7f753338e2b0>
+    <matplotlib.axes._subplots.AxesSubplot at 0xd3e5780>
 
 
 
 
-![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_17_1.png)
-
-
-
-```python
-%%nose
-def test_lifetables_2016_exists():
-    """lifetables_2016 is defined"""
-    assert 'lifetables_2016' in globals(), \
-      "You should have defined a variable named lifetables_2016."
-def test_lifetables_2016_df():
-    """Output is a DataFrame with 24 rows and 9 columns."""
-    assert lifetables_2016.shape == (24, 9), \
-      "Your DataFrame, lifetables_2016, should have 24 rows and 9 columns."
-
-def test_lifetables_2016_df_colnames():
-    """Output has column names: year, age, qx, lx, dx, Lx, Tx, ex, sex"""
-    assert all(name in lifetables_2016 for name in ['year', 'age', 'qx', 'lx', 'dx', 'Lx', 'Tx', 'ex', 'sex']), \
-      "Your DataFrame, lifetables_2016, should have columns named: year, age, qx, lx, dx, Lx, Tx, ex, sex."
-
-def test_lifetables_2016_df_year_plus_age():
-    """Output has the year + age = 2016"""
-    assert all(lifetables_2016.year + lifetables_2016.age - 2016 == 0), \
-      "The `year` column and `age` column in `lifetables_2016` should sum up to 2016."
-```
-
-
-
-
-
-
-    4/4 tests passed
-    
-
+![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_12_1.png)
 
 
 ## 7. Smoothen the Curve!
@@ -782,13 +617,26 @@ for sex in ["M", "F"]:
 #type(pd.concat(mf, ignore_index=True))
 #pd.concat(mf, ignore_index=True)
 lifetable_2016_s = pd.concat(mf, ignore_index = True)
-lifetable_2016_s
+lifetable_2016_s.head()
 ```
 
 
 
 
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -829,374 +677,9 @@ lifetable_2016_s
       <td>24.4</td>
       <td>F</td>
     </tr>
-    <tr>
-      <th>5</th>
-      <td>1905</td>
-      <td>30.5</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>1906</td>
-      <td>36.6</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>1907</td>
-      <td>42.7</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>1908</td>
-      <td>48.8</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>1909</td>
-      <td>54.9</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>1910</td>
-      <td>61.0</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>1911</td>
-      <td>597.7</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>1912</td>
-      <td>1134.4</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>1913</td>
-      <td>1671.1</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>1914</td>
-      <td>2207.8</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>1915</td>
-      <td>2744.5</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>1916</td>
-      <td>3281.2</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>1917</td>
-      <td>3817.9</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>1918</td>
-      <td>4354.6</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>1919</td>
-      <td>4891.3</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>1920</td>
-      <td>5428.0</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>1921</td>
-      <td>8393.0</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>1922</td>
-      <td>11358.0</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>1923</td>
-      <td>14323.0</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>1924</td>
-      <td>17288.0</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>1925</td>
-      <td>20253.0</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>1926</td>
-      <td>23218.0</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>1927</td>
-      <td>26183.0</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>1928</td>
-      <td>29148.0</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>1929</td>
-      <td>32113.0</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>202</th>
-      <td>1986</td>
-      <td>96718.2</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>203</th>
-      <td>1987</td>
-      <td>96904.9</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>204</th>
-      <td>1988</td>
-      <td>97091.6</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>205</th>
-      <td>1989</td>
-      <td>97278.3</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>206</th>
-      <td>1990</td>
-      <td>97465.0</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>207</th>
-      <td>1991</td>
-      <td>97607.3</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>208</th>
-      <td>1992</td>
-      <td>97749.6</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>209</th>
-      <td>1993</td>
-      <td>97891.9</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>210</th>
-      <td>1994</td>
-      <td>98034.2</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>211</th>
-      <td>1995</td>
-      <td>98176.5</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>212</th>
-      <td>1996</td>
-      <td>98318.8</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>213</th>
-      <td>1997</td>
-      <td>98461.1</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>214</th>
-      <td>1998</td>
-      <td>98603.4</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>215</th>
-      <td>1999</td>
-      <td>98745.7</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>216</th>
-      <td>2000</td>
-      <td>98888.0</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>217</th>
-      <td>2001</td>
-      <td>98928.8</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>218</th>
-      <td>2002</td>
-      <td>98969.6</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>219</th>
-      <td>2003</td>
-      <td>99010.4</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>220</th>
-      <td>2004</td>
-      <td>99051.2</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>221</th>
-      <td>2005</td>
-      <td>99092.0</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>222</th>
-      <td>2006</td>
-      <td>99132.8</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>223</th>
-      <td>2007</td>
-      <td>99173.6</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>224</th>
-      <td>2008</td>
-      <td>99214.4</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>225</th>
-      <td>2009</td>
-      <td>99255.2</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>226</th>
-      <td>2010</td>
-      <td>99296.0</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>227</th>
-      <td>2011</td>
-      <td>99296.0</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>228</th>
-      <td>2012</td>
-      <td>99296.0</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>229</th>
-      <td>2013</td>
-      <td>99296.0</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>230</th>
-      <td>2014</td>
-      <td>99296.0</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <th>231</th>
-      <td>2015</td>
-      <td>99296.0</td>
-      <td>M</td>
-    </tr>
   </tbody>
 </table>
-<p>232 rows × 3 columns</p>
 </div>
-
-
-
-
-```python
-%%nose
-def test_lifetable_2016_s_exists():
-    """lifetable_2016_s is defined"""
-    assert 'lifetable_2016_s' in globals(), \
-      "You should have defined a variable named lifetable_2016_s."
-def test_lifetables_2016_s_df():
-    """lifetable_2016_s is a dataframe with 232 rows and 3 columns."""
-    assert lifetable_2016_s.shape == (232, 3), \
-      "Your DataFrame, lifetable_2016_s, should have 232 rows and 3 columns."
-
-def test_lifetable_2016_s_df_colnames():
-    """lifetable_2016_s has column names: year, lx, sex"""
-    assert all(name in lifetable_2016_s for name in ['year', 'lx', 'sex']), \
-      "Your DataFrame, lifetable_2016_s, should have columns named: year, lx, sex."
-```
-
-
-
-
-
-
-    3/3 tests passed
-    
 
 
 
@@ -1235,36 +718,11 @@ plot_data('Brittany','F')
 ```
 
 
-![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_23_0.png)
+![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_16_0.png)
 
 
 
-![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_23_1.png)
-
-
-
-```python
-%%nose
-joseph = get_data('Joseph', 'M')
-def test_joseph_df():
-    """get_data('Joseph', 'M') is a dataframe with 116 rows and 6 columns."""
-    assert joseph.shape == (116, 6), \
-      "Running  get_data('Joseph', 'M') should return a data frame with 116 rows and 6 columns."
-
-def test_joseph_df_colnames():
-    """get_data('Joseph', 'M') has column names: name, sex, births, year, lx, n_alive"""
-    assert all(name in lifetable_2016_s for name in ['year', 'lx', 'sex']), \
-      "Running  get_data('Joseph', 'M') should return a data frame with column names: name, sex, births, year, lx, n_alive"
-```
-
-
-
-
-
-
-    2/2 tests passed
-    
-
+![png](2017-11-23-whats-in-a-name_files/2017-11-23-whats-in-a-name_16_1.png)
 
 
 ## 9. Estimate Age
@@ -1305,42 +763,19 @@ estimate_age('Gertrude', 'F')
 ```
 
 
+    ---------------------------------------------------------------------------
 
+    ImportError                               Traceback (most recent call last)
 
-    name       Gertrude
-    p_alive    0.187256
-    q25              89
-    q50              80
-    q75              70
-    sex               F
-    dtype: object
-
-
-
-
-```python
-%%nose
-gertrude = estimate_age('Gertrude', 'F')
-def test_gertrude_names():
-    """Series has indices name, p_alive, q25, q50 and q75"""
-    expected_names = ['name', 'p_alive', 'q25', 'q50', 'q75']
-    assert all(name in gertrude.index.values for name in expected_names), \
-      "Your function `estimate_age` should return a series with names: name, p_alive, q25, q50 and q75"
-
-def test_gertrude_q50():
-    """50th Percentile of age for Gertrude is between 75 and 85"""
-    assert ((75 < gertrude['q50']) and (gertrude['q50'] < 85)), \
-      "The estimated median age for the name Gertrude should be between 75 and 85."
-```
-
-
-
-
-
-
-    2/2 tests passed
+    <ipython-input-11-dd3e41f07406> in <module>()
+          1 # Import modules
+    ----> 2 from wquantiles import quantile
+          3 
+          4 # Function to estimate age quantiles
+          5 def estimate_age(name, sex):
     
 
+    ImportError: No module named 'wquantiles'
 
 
 ## 10. Median Age of Top 10 Female Names
@@ -1377,22 +812,4 @@ median_ages
 
 ```python
 #estimate_age('Jennifer','F')
-```
-
-
-```python
-%%nose
-def test_median_ages_exists():
-    """median_ages is defined"""
-    assert 'median_ages' in globals(), \
-      "You should have a variable named median_ages defined."
-def test_median_ages_df():
-    """median_ages is a dataframe with 10 rows and 6 columns."""
-    assert median_ages.shape == (10, 6), \
-      "Your DataFrame, median_ages, should have 10 rows and 6 columns"
-
-def test_median_ages_df_colnames():
-    """median_ages has column names: name, p_alive, q25, q50, q75 and sex"""
-    assert all(name in median_ages for name in ['name', 'p_alive', 'q25', 'q50', 'q75', 'sex']), \
-      "Your DataFrame, median_ages, should have columns named: name, p_alive, q25, q50, q75 and sex"
 ```
