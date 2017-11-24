@@ -1,4 +1,17 @@
-
+---
+layout: post
+title: "What's in a name"
+date: '2017-11-23 19:26 +0100'
+author: Fergus Findley
+tags:
+  - learning
+  - DataFrame
+  - pandas
+  - DataCamp
+description: >-
+  DataCamp project.``
+image: 
+---
 ## 1. Introduction to Baby Names Data
 <blockquote>
   <p>What’s in a name? That which we call a rose, By any other name would smell as sweet.</p>
