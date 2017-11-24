@@ -217,7 +217,7 @@ parts_by_year.T.plot()
 
 
 
-![png](Exploring67YearsOfLEGO_files/Exploring67YearsOfLEGO_9_1.png)
+![png](/imgs/2017-11-22-exploring-67-years-of-LEGO_files/2017-11-22-exploring-67-years-of-LEGO_9_1.png)
 
 
 ## 6. Lego Themes Over Years
