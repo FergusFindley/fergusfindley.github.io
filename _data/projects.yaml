@@ -8,7 +8,7 @@
 
 - title:  Exploring 67 Years Of LEGO
   desc:   DataCamp project.
-  href:   https://github.com/FergusFindley/DataCamp/Exploring67YearsOfLEGO.ipynb
+  href:   https://github.com/FergusFindley/fergusfindley.github.io/content/notebooks/Exploring67YearsOfLEGO.ipynb
   dateStart: 2017-11-22
   dateEnd: 2017-11-22
   tags:   [learning, DataFrame, pandas, DataCamp]
