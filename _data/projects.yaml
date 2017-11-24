@@ -16,7 +16,7 @@
   
 - title:  Dr. Semmelweis And The Discovery Of Handwashing
   desc:   DataCamp project.
-  href:   https://github.com/FergusFindley/DataCamp/DrSemmelweisAndTheDiscoveryOfHandwashing.ipynb
+  href:   https://github.com/FergusFindley/DataCamp/blob/master/DrSemmelweisAndTheDiscoveryOfHandwashing.ipynb
   dateStart: 2017-11-23
   dateEnd: 2017-11-23 
   tags:   [learning, DataFrame, pandas, DataCamp]
@@ -24,7 +24,7 @@
 
 - title:  Exploring 67 Years Of LEGO
   desc:   DataCamp project.
-  href:   https://github.com/FergusFindley/DataCamp/Exploring67YearsOfLEGO.ipynb
+  href:   https://github.com/FergusFindley/DataCamp/blob/master/Exploring67YearsOfLEGO.ipynb
   dateStart: 2017-11-22
   dateEnd: 2017-11-22
   tags:   [learning, DataFrame, pandas, DataCamp]
