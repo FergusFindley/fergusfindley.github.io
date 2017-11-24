@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Introduction to DataCamp projects"
+date: '2017-11-22 18:26 +0100'
+author: Fergus Findley
+tags:
+  - learning
+  - DataCamp
+description: >-
+  DataCamp project.``
+image: 
+---
 
 ## 1. This is a Jupyter notebook!
 <p>A <em>Jupyter notebook</em> is a document that contains text cells (what you're reading right now) and code cells. What is special with a notebook is that it's <em>interactive</em>: You can change or add code cells, and then <em>run</em> a cell by first selecting it and then clicking the <em>run cell</em> button above ( <strong>▶|</strong> Run ) or hitting <code>ctrl + enter</code>. </p>
