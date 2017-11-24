@@ -1,17 +1,4 @@
----
-layout: post
-title: "Dr. Semmelweis and the discovery of handwashing"
-date: '2017-11-22 19:26 +0100'
-author: Fergus Findley
-tags:
-  - learning
-  - DataFrame
-  - pandas
-  - DataCamp
-description: >-
-  DataCamp project.``
-image: https://s3.amazonaws.com/assets.datacamp.com/production/project_10/datasets/lego-bricks.jpeg
----
+
 ## 1. Meet Dr. Ignaz Semmelweis
 <p><img style="float: left;margin:5px 20px 5px 1px" src="https://s3.amazonaws.com/assets.datacamp.com/production/project_20/datasets/ignaz_semmelweis_1860.jpeg"></p>
 <!--
@@ -428,44 +415,6 @@ mean_diff
 
 
     -0.083956607511833356
-
-
-
-
-```python
-%%nose
-        
-def test_before_proportion_exists():
-    assert 'before_proportion' in globals(), \
-        "before_proportion should be defined"
-        
-def test_after_proportion_exists():
-    assert 'after_proportion' in globals(), \
-        "after_proportion should be defined"
-        
-def test_mean_diff_exists():
-    assert 'mean_diff' in globals(), \
-        "mean_diff should be defined"
-        
-def test_before_proportion_is_a_series():
-     assert hasattr(before_proportion, '__len__') and len(before_proportion) == 76, \
-        "before_proportion should be 76 elements long, and not a single number."
-
-def test_correct_mean_diff():
-    correct_before_proportion = before_washing["proportion_deaths"]
-    correct_after_proportion = after_washing["proportion_deaths"]
-    correct_mean_diff = correct_after_proportion.mean() - correct_before_proportion.mean()
-    assert mean_diff == correct_mean_diff, \
-        "mean_diff should be calculated as the mean of after_proportion minus the mean of before_proportion."
-```
-
-
-
-
-
-
-    5/5 tests passed
-    
 
 
 
