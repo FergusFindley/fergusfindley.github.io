@@ -1,4 +1,17 @@
-
+---
+layout: post
+title: "Dr. Semmelweis and the discovery of handwashing"
+date: '2017-11-22 19:26 +0100'
+author: Fergus Findley
+tags:
+  - learning
+  - DataFrame
+  - pandas
+  - DataCamp
+description: >-
+  DataCamp project.``
+image: https://s3.amazonaws.com/assets.datacamp.com/production/project_10/datasets/lego-bricks.jpeg
+---
 ## 1. Meet Dr. Ignaz Semmelweis
 <p><img style="float: left;margin:5px 20px 5px 1px" src="https://s3.amazonaws.com/assets.datacamp.com/production/project_20/datasets/ignaz_semmelweis_1860.jpeg"></p>
 <!--
