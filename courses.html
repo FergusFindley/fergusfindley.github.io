@@ -1,0 +1,36 @@
+---
+layout: page
+title:  Courses
+permalink: /courses/
+order:  900
+---
+
+<div class="home">
+
+  Programming, Git & MachineLearning courses I participated in. 
+  <br><br>
+
+  <ul class="event-list">
+  {% for course in site.data.courses %}
+    <li>
+      <a href="{{ course.href }}">{{ course.title }}</a>
+      <span class="post-meta">
+      {% for tag in course.tags %}
+        <span>[{{ tag }}]</span>
+      {% endfor %}
+      •
+      started: {{ course.dateStart | date: "%Y" }}
+      •
+      {{ course.status}}
+      {% if course.hn %}
+      • see <a href="{{ course.hn }}">HN discussion</a>
+      {% endif %}
+      </span>
+      </br>
+      Course level: {{ course.level }}
+      Rating: {{ course.rating }}
+    </li>
+  {% endfor %}
+  </ul>
+
+</div>
