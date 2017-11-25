@@ -15,19 +15,22 @@ order:  900
     <li>
       <a href="{{ course.href }}">{{ course.title }}</a>
       <span class="post-meta">
+        
       {% for tag in course.tags %}
         <span>[{{ tag }}]</span>
       {% endfor %}
       •
-      started: {{ course.dateStart | date: "%Y" }}
+      started: {{ course.dateStart | date: "%-d %b %Y" }}
       •
       {{ course.status}}
       {% if course.hn %}
       • see <a href="{{ course.hn }}">HN discussion</a>
       {% endif %}
+      • 
+      Course level: {{ course.level }}
       </span>
       </br>
-      Course level: {{ course.level }}
+      
       Rating: {{ course.rating }}
   
     </li>
