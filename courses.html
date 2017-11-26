@@ -16,9 +16,6 @@ order:  900
       <a href="{{ course.href }}">{{ course.title }}</a>
       <span class="post-meta">
         
-      {% for tag in course.tags %}
-        <span>[{{ tag }}]</span>
-      {% endfor %}
       •
       started: {{ course.dateStart | date: "%-d %b %Y" }}
       •
@@ -28,9 +25,12 @@ order:  900
       {% endif %}
       • 
       Course level: {{ course.level }}
+      <br>
+      {% for tag in course.tags %}
+        <span>[{{ tag }}]</span>
+      {% endfor %}
       </span>
       </br>
-      
       Rating: {{ course.rating }}
   
     </li>
