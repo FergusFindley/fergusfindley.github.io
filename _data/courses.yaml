@@ -7,3 +7,11 @@
   status: done
   rating: 5/5
   
+- title:  Introduction to Python & Machine Learning (with Analytics Vidhya Hackathons)
+  level:  basic/intermediate/advanced
+  href:   https://www.datacamp.com/community/open-courses/introduction-to-python-machine-learning-with-analytics-vidhya-hackathons
+  dateStart: 2017-11-23
+  dateEnd: 2017-11-24 
+  tags:   [Python, Pandas, Predictive model, DataCamp]
+  status: done
+  rating: 3/5
