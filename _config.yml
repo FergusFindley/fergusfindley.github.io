@@ -9,7 +9,7 @@
 title: Michał Nawrot
 email: michal.nawrot@fuw.edu.pl
 description: > # this means to ignore newlines until "baseurl:"
-  Fergus Findley - a data science and Machine Learning enthusiast. I like to practice and do some projects about data science.
+  Michał Nawrot - a data science and Machine Learning enthusiast. I like to practice and do some projects about data science.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://michalnawrot.github.io" # the base hostname & protocol for your site
 usernames:
