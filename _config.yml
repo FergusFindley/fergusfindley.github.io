@@ -6,15 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Fergus Findley
-email: fergusfindley@gmail.com
+title: Michał Nawrot
+email: michal.nawrot@fuw.edu.pl
 description: > # this means to ignore newlines until "baseurl:"
   Fergus Findley - a data science and Machine Learning enthusiast. I like to practice and do some projects about data science.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fergusfindley.github.io" # the base hostname & protocol for your site
+url: "http://michalnawrot.github.io" # the base hostname & protocol for your site
 usernames:
   twitter: 
-  github:  fergusfindley
+  github:  michalnawrot
   linkedin: 
   stackexchange: 
   delicious: 
