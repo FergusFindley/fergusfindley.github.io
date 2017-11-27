@@ -1,5 +1,16 @@
+
+
+- title:  Intro to SQL for Data Science
+  level:  basic
+  href:   https://www.datacamp.com/courses/intro-to-sql-for-data-science
+  dateStart: 2017-11-25
+  dateEnd: 2017-11-26
+  tags:   [SQL, database, DataCamp]
+  status: done
+  rating: 3/5
+
 - title:  Introduction to Git for Data Science
-  level:  basic/intermediate/advanced
+  level:  basic/intermediate
   href:   https://www.datacamp.com/courses/introduction-to-git-for-data-science
   dateStart: 2017-11-25
   dateEnd: 2017-11-25 
@@ -8,10 +19,10 @@
   rating: 4/5
   
 - title:  Introduction to Python & Machine Learning (with Analytics Vidhya Hackathons)
-  level:  basic/intermediate/advanced
+  level:  basic
   href:   https://www.datacamp.com/community/open-courses/introduction-to-python-machine-learning-with-analytics-vidhya-hackathons
   dateStart: 2017-11-23
   dateEnd: 2017-11-24 
-  tags:   [Python, Pandas, Predictive model, DataCamp]
+  tags:   [Python, Pandas, predictive models, DataCamp]
   status: done
   rating: 3/5
