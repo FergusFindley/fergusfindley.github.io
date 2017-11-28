@@ -17,7 +17,7 @@ order:  900
       <span class="post-meta">
         
       •
-      started: {{ course.dateStart | date: "%-d %b %Y" }}
+      {{ course.dateStart | date: "%-d %b %Y" }} - {{ course.dateEnd | date: "%-d %b %Y" }}
       •
       {{ course.status}}
       {% if course.hn %}
