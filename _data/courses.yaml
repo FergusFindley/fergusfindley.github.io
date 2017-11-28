@@ -81,7 +81,7 @@
   status: done
   rating: 5/5
   
-- title:  Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+- title:  Improving Deep Neural Networks. Hyperparameter tuning, Regularization and Optimization
   level:  intermediate/advanced
   href:   https://www.coursera.org/learn/deep-neural-network
   dateStart: 2017-08-11
