@@ -1,4 +1,12 @@
 
+- title:  Intro to SQL for Data Science
+  level:  basic
+  href:   https://www.datacamp.com/courses/intro-to-python-for-data-science
+  dateStart: 2017-11-27
+  dateEnd: 2017-11-28
+  tags:   [Python, numpy, DataCamp]
+  status: done
+  rating: 2/5
 
 - title:  Intro to SQL for Data Science
   level:  basic
