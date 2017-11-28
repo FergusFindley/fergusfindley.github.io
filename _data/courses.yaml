@@ -9,7 +9,6 @@
   status: done
   rating: 4/5
 
-
 - title:  Kaggle Python Tutorial on Machine Learning
   level:  basic/intermediate
   href:   https://www.datacamp.com/community/open-courses/kaggle-python-tutorial-on-machine-learning
@@ -54,3 +53,57 @@
   tags:   [Python, Pandas, predictive models, DataCamp]
   status: done
   rating: 3/5
+  
+- title:  Sequence Models
+  level:  intermediate/advanced
+  href:   https://www.coursera.org/learn/nlp-sequence-models
+  dateStart: 2017-11-30
+  dateEnd: 
+  tags:   [Deeplearning.ai, Coursera]
+  status: in progress
+  rating: _/5
+  
+- title:  Convolutional Neural Networks
+  level:  intermediate/advanced
+  href:   https://www.coursera.org/learn/convolutional-neural-networks
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-17 
+  tags:   [ConvolutionalNeuralNetworks, ObjectDetection,  FaceRecognition, Deeplearning.ai, Coursera]
+  status: done
+  rating: 5/5
+  
+- title:  Structuring Machine Learning Projects
+  level:  basic
+  href:   https://www.coursera.org/learn/machine-learning-projects
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-17 
+  tags:   [Examples, Deeplearning.ai, Coursera]
+  status: done
+  rating: 5/5
+  
+- title:  Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+  level:  intermediate/advanced
+  href:   https://www.coursera.org/learn/deep-neural-network
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-17 
+  tags:   [NeuralNetworks, Optimization, Hyperparameters, Deeplearning.ai, Coursera]
+  status: done
+  rating: 4/5
+  
+- title:  Neural Networks and Deep Learning
+  level:  intermediate/advanced
+  href:   https://www.coursera.org/learn/neural-networks-deep-learning
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-15 
+  tags:   [NeuralNetworks, Numpy, Vectorization, Backpropagation, DeepNN, Deeplearning.ai, Coursera]
+  status: done
+  rating: 5/5
+ 
+- title:  Machine Learning Stanford University
+  level:  intermediate/advanced
+  href:   https://www.coursera.org/learn/machine-learning/home
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-10 
+  tags:   [ML, Linear Algebra, Regression, Classification, Overfitting, NeuralNetworks, Bias-Variance, SupportVectorMachine, Clustering, PrincipalComponentsAnalysis, AnomalyDetection, RecommenderSystems, PhotoOCR, Coursera]
+  status: done
+  rating: 5/5
