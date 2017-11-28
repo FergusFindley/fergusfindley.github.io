@@ -53,6 +53,15 @@
   tags:   [Python, Pandas, predictive models, DataCamp]
   status: done
   rating: 3/5
+  
+- title:  Deep Learning by Google 
+  level:  intermediate/advanced
+  href:   https://www.udacity.com/course/deep-learning--ud730
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-17 
+  tags:   [DeepNeuralNetworks, ConvolutionalNeuralNetworks, Text, TensorFlow, Google, Udacity]
+  status: done
+  rating: 4/5
 
 - title:  Applied Social Network Analysis in Python
   level:  intermediate/advanced
