@@ -53,6 +53,60 @@
   tags:   [Python, Pandas, predictive models, DataCamp]
   status: done
   rating: 3/5
+
+- title:  Applied Social Network Analysis in Python
+  level:  intermediate/advanced
+  href:   https://www.coursera.org/learn/python-social-network-analysis
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-17 
+  tags:   [Graphs, NetworkX, PreferentialAttachmentModel, SmallWorldNetworks, UniversityOfMichigan, Coursera]
+  status: done
+  rating: 2/5
+
+- title:  Applied Text Mining in Python
+  level:  intermediate/advanced
+  href:   https://www.coursera.org/learn/python-text-mining
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-17 
+  tags:   [Text, NaturalLanguageProcessing, UniversityOfMichigan, Coursera]
+  status: done
+  rating: 5/5
+
+- title:  Applied Machine Learning in Python
+  level:  intermediate/advanced
+  href:   https://www.coursera.org/learn/python-machine-learning
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-17 
+  tags:   [SciKitLearn, Regression, Clasification, Evaluation, Ensembles, UniversityOfMichigan, Coursera]
+  status: done
+  rating: 5/5
+
+- title:  Applied Plotting, Charting & Data Representation in Python
+  level:  basic
+  href:   https://www.coursera.org/learn/python-plotting
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-17 
+  tags:   [Visualization, UniversityOfMichigan, Coursera]
+  status: done
+  rating: 3/5
+
+- title:  Introduction to Data Science in Python
+  level:  basic
+  href:   https://www.coursera.org/learn/python-data-analysis/
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-17 
+  tags:   [Python, Pandas, UniversityOfMichigan, Coursera]
+  status: done
+  rating: 4/5
+
+- title:  Introduction to Data Science in Python
+  level:  basic
+  href:   https://www.coursera.org/learn/python-data-analysis/
+  dateStart: 2017-08-11
+  dateEnd: 2017-10-17 
+  tags:   [Python, Pandas, UniversityOfMichigan, Coursera]
+  status: done
+  rating: 4/5
   
 - title:  Sequence Models
   level:  intermediate/advanced
@@ -70,7 +124,7 @@
   dateEnd: 2017-10-17 
   tags:   [ConvolutionalNeuralNetworks, ObjectDetection,  FaceRecognition, Deeplearning.ai, Coursera]
   status: done
-  rating: 5/5
+  rating: 4/5
   
 - title:  Structuring Machine Learning Projects
   level:  basic
@@ -79,7 +133,7 @@
   dateEnd: 2017-10-17 
   tags:   [Examples, Deeplearning.ai, Coursera]
   status: done
-  rating: 5/5
+  rating: 3/5
   
 - title:  Improving Deep Neural Networks. Hyperparameter tuning, Regularization and Optimization
   level:  intermediate/advanced
