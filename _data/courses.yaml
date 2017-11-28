@@ -1,4 +1,24 @@
 
+
+- title:  Tidy Data in Python Mini-Course
+  level:  basic
+  href:   https://www.datacamp.com/community/open-courses/tidy-data-in-python-mini-course
+  dateStart: 2017-11-28
+  dateEnd: 2017-11-28
+  tags:   [Pandas, pd.melt, DataCamp]
+  status: done
+  rating: 4/5
+
+
+- title:  Kaggle Python Tutorial on Machine Learning
+  level:  basic/intermediate
+  href:   https://www.datacamp.com/community/open-courses/kaggle-python-tutorial-on-machine-learning
+  dateStart: 2017-11-28
+  dateEnd: 2017-11-28
+  tags:   [DecisionTree, RandomForest, Titanic, Kaggle, DataCamp]
+  status: done
+  rating: 3/5
+
 - title:  Intro to Python for Data Science
   level:  basic
   href:   https://www.datacamp.com/courses/intro-to-python-for-data-science
