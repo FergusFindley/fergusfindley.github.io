@@ -107,15 +107,6 @@
   tags:   [Python, Pandas, UniversityOfMichigan, Coursera]
   status: done
   rating: 4/5
-
-- title:  Introduction to Data Science in Python
-  level:  basic
-  href:   https://www.coursera.org/learn/python-data-analysis/
-  dateStart: 2017-08-11
-  dateEnd: 2017-10-17 
-  tags:   [Python, Pandas, UniversityOfMichigan, Coursera]
-  status: done
-  rating: 4/5
   
 - title:  Sequence Models
   level:  intermediate/advanced
