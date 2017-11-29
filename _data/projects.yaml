@@ -38,6 +38,14 @@
   tags:   [learning, Jupyter, Pandas, DataCamp]
   status: done
 
+- title:  Project Euler
+  desc:   Coding exercises from Project Euler site.
+  href:   https://github.com/MichalNawrot/Project-Euler/blob/master/ProjectEuler.ipynb
+  dateStart: 2017-11-13
+  dateEnd: 
+  tags:   [learning, Python]
+  status: in progress
+  
 - title:  Learn Python 3 the hard way
   desc:   Exercises from the book.
   href:   https://github.com/MichalNawrot/Learn-Python-3-the-hard-way/blob/master/Learn%20Python%203%20the%20hard%20way.ipynb
