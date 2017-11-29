@@ -1,31 +1,32 @@
-- title:  Dr. Semmelweis And The Discovery Of Handwashing
+
+- title:  What's in a name
   desc:   DataCamp project.
-  href:   https://github.com/FergusFindley/fergusfindley.github.io/blob/master/contents/notebooks/DrSemmelweisAndTheDiscoveryOfHandwashing.ipynb
+  href:   https://github.com/MichalNawrot/DataCamp/blob/master/Name/2017-11-23-whats-in-a-name.ipynb
   dateStart: 2017-11-23
   dateEnd: 2017-11-23 
-  tags:   [learning, DataFrame, pandas, DataCamp]
+  tags:   [learning, Pandas, numpy, DataCamp]
+  status: done
+
+- title:  Dr. Semmelweis And The Discovery Of Handwashing
+  desc:   DataCamp project.
+  href:   https://github.com/MichalNawrot/DataCamp/blob/master/Washing/2017-11-23-dr-semmelweis-and-the-discovery-of-handwashing.ipynb
+  dateStart: 2017-11-23
+  dateEnd: 2017-11-23 
+  tags:   [learning, Pandas, bootstrap, DataCamp]
   status: done
 
 - title:  Exploring 67 Years Of LEGO
   desc:   DataCamp project.
-  href:   https://github.com/FergusFindley/fergusfindley.github.io/blob/master/contents/notebooks/Exploring67YearsOfLEGO.ipynb
+  href:   https://github.com/MichalNawrot/DataCamp/blob/master/LEGO/2017-11-22-exploring-67-years-of-LEGO.ipynb
   dateStart: 2017-11-22
   dateEnd: 2017-11-22
-  tags:   [learning, DataFrame, pandas, DataCamp]
+  tags:   [learning, Pandas, DataCamp]
   status: done
   
-- title:  Dr. Semmelweis And The Discovery Of Handwashing
+- title:  Introduction to DataCamp projects
   desc:   DataCamp project.
-  href:   https://github.com/FergusFindley/DataCamp/blob/master/DrSemmelweisAndTheDiscoveryOfHandwashing.ipynb
-  dateStart: 2017-11-23
-  dateEnd: 2017-11-23 
-  tags:   [learning, DataFrame, pandas, DataCamp]
-  status: done
-
-- title:  Exploring 67 Years Of LEGO
-  desc:   DataCamp project.
-  href:   https://github.com/FergusFindley/DataCamp/blob/master/Exploring67YearsOfLEGO.ipynb
+  href:   https://github.com/MichalNawrot/DataCamp/blob/master/Intro/2017-11-22-introduction-to-datacamp-projects.ipynb
   dateStart: 2017-11-22
   dateEnd: 2017-11-22
-  tags:   [learning, DataFrame, pandas, DataCamp]
+  tags:   [learning, Jupyter, Pandas, DataCamp]
   status: done
