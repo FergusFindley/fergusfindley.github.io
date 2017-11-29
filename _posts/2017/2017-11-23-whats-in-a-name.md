@@ -773,22 +773,6 @@ estimate_age('Gertrude', 'F')
 #  return pd.Series(result)
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    ImportError                               Traceback (most recent call last)
-
-    <ipython-input-11-dd3e41f07406> in <module>()
-          1 # Import modules
-    ----> 2 from wquantiles import quantile
-          3 
-          4 # Function to estimate age quantiles
-          5 def estimate_age(name, sex):
-    
-
-    ImportError: No module named 'wquantiles'
-
-
 ## 10. Median Age of Top 10 Female Names
 <p>In the previous section, we estimated the age of a female named Gertrude. Let's go one step further this time, and compute the 25th, 50th and 75th percentiles of age, and the probability of being alive for the top 10 most common female names of all time. This should give us some interesting insights on how these names stack up in terms of median ages!</p>
 
