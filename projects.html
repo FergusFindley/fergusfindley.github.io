@@ -20,7 +20,7 @@ order:  1
         <span>[{{ tag }}]</span>
       {% endfor %}
       •
-      started: {{ project.dateStart | date: "%Y" }}
+      {{ project.dateStart | date: "%-d %b %Y" }} - {{ project.dateEnd | date: "%-d %b %Y" }} 
       •
       {{ project.status}}
       {% if project.hn %}
