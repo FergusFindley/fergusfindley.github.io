@@ -1,3 +1,10 @@
+- title:  Kaggle Python Tutorial on Machine Learning
+  desc:   DataCamp project.
+  href:   https://github.com/MichalNawrot/Kaggle/blob/master/Titanic/Kaggle%20Python%20Tutorial%20on%20Machine%20Learning.ipynb
+  dateStart: 2017-11-28
+  dateEnd: 2017-11-28
+  tags:   [learning, Titanic, Kaggle, DataCamp]
+  status: done
 
 - title:  What's in a name
   desc:   DataCamp project.
