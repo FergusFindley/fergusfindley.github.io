@@ -1,4 +1,8 @@
-
+- title: Compilation of my favorite data science cheat sheets. Enjoy!
+  at:    DataCamp.com, dataquest.io, Mercurytide, cheatography.com
+  href:  https://github.com/MichalNawrot/DataCamp/blob/master/CheatSheet.pdf
+  date:  2017-11-30
+  tags:  [CheatSheet, Python, Jupyter, Pandas, NumPy, Matplotlib, SciPy, Scikit-Learn, Seaborn, Keras, PySpark, Bokeh, Django]
 
 - title: Artificial Intelligence Education by Siraj Raval
   at:    youtube.com
