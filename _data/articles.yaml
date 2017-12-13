@@ -33,3 +33,9 @@
   href:  https://github.com/rcompton/ml_cheat_sheet
   date:  
   tags:  [cheat-sheet,ml]
+
+- title: Great SQL exercises
+  at:    sqlzoo
+  href:  http://sqlzoo.net/wiki/SQL_Tutorial
+  date:  
+  tags:  [tutorial,sql]
