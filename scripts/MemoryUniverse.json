@@ -1,0 +1,82 @@
+{
+ "name": "universe",
+ "children": [
+  {
+   "name": "general",
+   "children": [
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "AgglomerativeCluster", "size": 3938},
+      {"name": "CommunityStructure", "size": 3812},
+      {"name": "HierarchicalCluster", "size": 6714},
+      {"name": "MergeEdge", "size": 743}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Philosophy", "size": 4000, 
+   "children": [
+	{"name": "1", "size": 2000},
+	{"name": "2", "size": 2000}
+   ]
+  },
+  {
+   "name": "Theology", "size": 4000, 
+   "children": [
+	{"name": "1", "size": 2000},
+	{"name": "2", "size": 2000}
+   ]
+  },
+  {
+   "name": "Sociology", "size": 4000, 
+   "children": [
+	{"name": "1", "size": 2000},
+	{"name": "2", "size": 2000}
+   ]
+  },
+  {
+   "name": "Philology", "size": 4000, 
+   "children": [
+	{"name": "1", "size": 2000},
+	{"name": "2", "size": 2000}
+   ]
+  },
+  {
+   "name": "Natural Science", "size": 4000, 
+   "children": [
+	{"name": "1", "size": 2000},
+	{"name": "2", "size": 2000}
+   ]
+  },
+  {
+   "name": "Useful Arts", "size": 4000, 
+   "children": [
+	{"name": "1", "size": 2000},
+	{"name": "2", "size": 2000}
+   ]
+  },
+  {
+   "name": "Fine Arts", "size": 4000, 
+   "children": [
+	{"name": "1", "size": 2000},
+	{"name": "2", "size": 2000}
+   ]
+  },
+  {
+   "name": "Literature", "size": 4000, 
+   "children": [
+	{"name": "1", "size": 2000},
+	{"name": "2", "size": 2000}
+   ]
+  },
+  {
+   "name": "History", "size": 4000, 
+   "children": [
+	{"name": "1", "size": 2000},
+	{"name": "2", "size": 2000}
+   ]
+  }
+ ]
+}
