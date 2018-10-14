@@ -5,11 +5,7 @@ permalink: /about/
 order: 999
 ---
 
-Michał Nawrot
-
-My public Resume/CV:
-
-* [data science / programming resume](https://github.com/fergusfindley/cv-resume/blob/master/michal_nawrot_resume_data_sci.pdf?raw=true)
+My public [data science / programming resume](https://github.com/fergusfindley/cv-resume/blob/master/michal_nawrot_resume_data_sci.pdf?raw=true)
 
 For the most recent version - contact <a href="mailto:michal.nawrot@fuw.edu.pl">me</a>.
 
