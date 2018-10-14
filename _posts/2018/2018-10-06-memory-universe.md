@@ -10,9 +10,24 @@ tags:
 description: 'My way to remember things'
 image: 
 ---
-<script src="//code.jquery.com/jquery.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
 <style>
-
+.hovercard {
+        position: absolute;
+        max-width: 400px;
+        height: auto;
+        padding: 5px;
+        background-color: white;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+        font: 12px sans-serif;
+    }
+	
 .node {
   stroke: #fff;
   stroke-width: 1.5px;
@@ -27,10 +42,10 @@ image:
 
 <div id='d3div'></div>
 
-<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
 <script type="text/javascript">	
 	
-var w = $("#d3div").width(),
+var w = 1200,
     h = 800,
     node,
     link,
@@ -46,7 +61,13 @@ var vis = d3.select("#d3div").append("svg:svg")
     .attr("width", w)
     .attr("height", h);
 
-d3.json("../../../../scripts/MemoryUniverse.json", function(json) {
+// add hovercard
+var hovercard = d3.select('body').append('div')
+	.attr('class', 'hovercard')
+    .style('opacity', 0)
+    .style('width', 400);
+	
+d3.json("MemoryUniverse.json", function(json) {
   root = json;
   root.fixed = true;
   root.x = w / 2;
@@ -96,6 +117,14 @@ function update() {
       .style("fill", color)
       .on("click", click)
       .call(force.drag);
+	  
+	node.append("image")
+		.attr("xlink:href", function(d) {
+			return "img/"+d.name.toLowerCase()+".png";})
+		.attr("x", function(d) {return -25;})
+		.attr("y", function(d) {return -25;})
+		.attr("height", 50)
+		.attr("width", 50);
 
   // Exit any old nodes.
   node.exit().remove();
@@ -109,7 +138,35 @@ function tick() {
 
   node.attr("cx", function(d) { return d.x; })
       .attr("cy", function(d) { return d.y; });
-}
+
+	node.on('mouseover', function(d) {
+           
+           hovercard.transition()
+                .duration(100)
+                .style('opacity', 1);
+                
+            var tip = 
+                '<h2>' + d.name + '</h2>' +
+                '<h4>' + 'description' + '</h4>' +
+                '<h3>Details</h3>' +
+                '<strong> some important details </strong>';
+                
+                
+            hovercard.html(tip)
+                .style('left', d3.event.pageX + 'px')
+                .style('top', d3.event.pageY + 'px');
+                
+            
+        });
+        
+        node.on('mouseout', function(d) {
+            
+            hovercard.transition()
+                .duration(100)
+                .style('opacity',0);
+        });
+	  
+} //tick end
 
 // Color leaf nodes orange, and packages white or blue.
 function color(d) {
