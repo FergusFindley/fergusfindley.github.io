@@ -2,80 +2,153 @@
  "name": "universe",
  "children": [
   {
-   "name": "general",
-   "children": [
-    {
-     "name": "cluster",
-     "children": [
-      {"name": "AgglomerativeCluster", "size": 3938},
-      {"name": "CommunityStructure", "size": 3812},
-      {"name": "HierarchicalCluster", "size": 6714},
-      {"name": "MergeEdge", "size": 743}
-     ]
-    }
+   "name": "Computer science, information & general work", "size": 4000,
+   "children" : [
+   {"name" : "000 Computer science, knowledge & systems", "size": 2000},
+   {"name" : "010 Bibliographies", "size": 2000},
+   {"name" : "020 Outline of library science|Library & information sciences", "size": 2000},
+   {"name" : "030 Encyclopedias & books of facts", "size": 2000},
+   {"name" : "040 Unassigned ''(formerly Biographies)''", "size": 2000},
+   {"name" : "050 Magazines, journals & serials", "size": 2000},
+   {"name" : "060 Associations, organizations & museums", "size": 2000},
+   {"name" : "070 News media, journalism & publishing", "size": 2000},
+   {"name" : "080 Quotations", "size": 2000},
+   {"name" : "090 Manuscripts & rare books", "size": 2000}
    ]
   },
   {
-   "name": "Philosophy", "size": 4000, 
+   "name": "100philosophy", "size": 4000, 
    "children": [
-	{"name": "1", "size": 2000},
-	{"name": "2", "size": 2000}
+   {"name" : "100 Outline of philosophy|Philosophy", "size": 2000},
+   {"name" : "110 Metaphysics", "size": 2000},
+   {"name" : "120 Outline of epistemology|Epistemology", "size": 2000},
+   {"name" : "130 Parapsychology & occultism", "size": 2000},
+   {"name" : "140 :Category:Philosophical movements|Philosophical schools of thought", "size": 2000},
+   {"name" : "150 Outline of psychology|Psychology", "size": 2000},
+   {"name" : "160 Philosophical logic", "size": 2000},
+   {"name" : "170 Ethics", "size": 2000},
+   {"name" : "180 Ancient philosophy|Ancient, medieval philosophy|medieval, & Eastern philosophy", "size": 2000},
+   {"name" : "190 Modern Western philosophy (19th-century philosophy|19th-century, 20th-century philosophy|20th-century)", "size": 2000}
    ]
   },
   {
-   "name": "Theology", "size": 4000, 
+   "name": "Religion", "size": 4000, 
    "children": [
-	{"name": "1", "size": 2000},
-	{"name": "2", "size": 2000}
+	{"name" : "200 Outline of religion|Religion", "size": 2000},
+   {"name" : "210 Philosophy & theory of religion", "size": 2000},
+   {"name" : "220 The Bible", "size": 2000},
+   {"name" : "230 Christianity", "size": 2000},
+   {"name" : "240 Christian practice & observance", "size": 2000},
+   {"name" : "250 Christian Holy Orders|orders & local church", "size": 2000},
+   {"name" : "260 Social & ecclesiastical theology", "size": 2000},
+   {"name" : "270 History of Christianity", "size": 2000},
+   {"name" : "280 Christian denominations", "size": 2000},
+   {"name" : "290 Other religions", "size": 2000}
    ]
   },
   {
    "name": "Sociology", "size": 4000, 
    "children": [
-	{"name": "1", "size": 2000},
-	{"name": "2", "size": 2000}
+	{"name" : "300 Social sciences, sociology & anthropology", "size": 2000},
+   {"name" : "310 Statistics", "size": 2000},
+   {"name" : "320 Outline of political science|Political science", "size": 2000},
+   {"name" : "330 Outline of economics|Economics", "size": 2000},
+   {"name" : "340 Outline of law|Law", "size": 2000},
+   {"name" : "350 Public administration & military science", "size": 2000},
+   {"name" : "360 Social problems & social services", "size": 2000},
+   {"name" : "370 Outline of education|Education", "size": 2000},
+   {"name" : "380 Commerce, Outline of communication|communications, & Outline of transport|transportation", "size": 2000},
+   {"name" : "390 Convention (norm)|Customs, etiquette, & folklore", "size": 2000}
    ]
   },
   {
    "name": "Philology", "size": 4000, 
    "children": [
-	{"name": "1", "size": 2000},
-	{"name": "2", "size": 2000}
+	{"name" : "400 Language", "size": 2000},
+   {"name" : "410 Outline of linguistics|Linguistics", "size": 2000},
+   {"name" : "420 English language|English & Old English language|Old English languages", "size": 2000},
+   {"name" : "430 German language|German & related languages", "size": 2000},
+   {"name" : "440 French language|French & related languages", "size": 2000},
+   {"name" : "450 italian language|Italian, Romanian language|Romanian, & related languages", "size": 2000},
+   {"name" : "460 Spanish language|Spanish,  Portuguese language|Portuguese, Galician", "size": 2000},
+   {"name" : "470 Latin & Italic languages", "size": 2000},
+   {"name" : "480 Classical & modern Greek languages", "size": 2000},
+   {"name" : "490 Other languages", "size": 2000}
    ]
   },
   {
    "name": "Natural Science", "size": 4000, 
    "children": [
-	{"name": "1", "size": 2000},
-	{"name": "2", "size": 2000}
+	{"name" : "500 Science", "size": 2000},
+   {"name" : "510 Topic outline of mathematics|Mathematics", "size": 2000},
+   {"name" : "520 Outline of astronomy|Astronomy", "size": 2000},
+   {"name" : "530 Outline of physics|Physics", "size": 2000},
+   {"name" : "540 Outline of chemistry|Chemistry", "size": 2000},
+   {"name" : "550 Earth sciences & geology", "size": 2000},
+   {"name" : "560 Fossils & prehistoric life", "size": 2000},
+   {"name" : "570 Biology", "size": 2000},
+   {"name" : "580 Plants", "size": 2000},
+   {"name" : "590 Animals (Zoology)", "size": 2000}
    ]
   },
   {
-   "name": "Useful Arts", "size": 4000, 
+   "name": "Technology", "size": 4000, 
    "children": [
-	{"name": "1", "size": 2000},
-	{"name": "2", "size": 2000}
+	{"name" : "600 Outline of technology|Technology", "size": 2000},
+   {"name" : "610 Outline of medicine|Medicine & health", "size": 2000},
+   {"name" : "620 Outline of engineering|Engineering", "size": 2000},
+   {"name" : "630 List of basic agriculture topics|Agriculture", "size": 2000},
+   {"name" : "640 Home & family management", "size": 2000},
+   {"name" : "650 Management & public relations", "size": 2000},
+   {"name" : "660 Chemical engineering", "size": 2000},
+   {"name" : "670 Outline of manufacturing|Manufacturing", "size": 2000},
+   {"name" : "680 Manufacture for specific uses", "size": 2000},
+   {"name" : "690 Construction of buildings", "size": 2000}
    ]
   },
   {
-   "name": "Fine Arts", "size": 4000, 
+   "name": "Arts & recreation", "size": 4000, 
    "children": [
-	{"name": "1", "size": 2000},
-	{"name": "2", "size": 2000}
+	{"name" : "700  Arts", "size": 2000},
+   {"name" : "710 Area planning & landscape art|landscape architecture", "size": 2000},
+   {"name" : "720 Outline of architecture|Architecture", "size": 2000},
+   {"name" : "730 Outline of sculpture|Sculpture, ceramics, & metalwork", "size": 2000},
+   {"name" : "740 Graphic arts & decorative arts", "size": 2000},
+   {"name" : "750 Painting", "size": 2000},
+   {"name" : "760 Printmaking & prints", "size": 2000},
+   {"name" : "770 Outline of photography|Photography, computer art, film, video", "size": 2000},
+   {"name" : "780 Outline of music|Music", "size": 2000},
+   {"name" : "790 Sports, games & entertainment", "size": 2000}
    ]
   },
   {
    "name": "Literature", "size": 4000, 
    "children": [
-	{"name": "1", "size": 2000},
-	{"name": "2", "size": 2000}
+	{"name" : "800 Outline of literature|Literature, rhetoric & Literary criticism|criticism", "size": 2000},
+   {"name" : "810 American literature in English", "size": 2000},
+   {"name" : "820 English literature|English & Old English literatures", "size": 2000},
+   {"name" : "830 German literature|German & related literatures", "size": 2000},
+   {"name" : "840 French & related literatures", "size": 2000},
+   {"name" : "850 Italian literature|Italian, romanian literature|Romanian, & related literatures", "size": 2000},
+   {"name" : "860 Spanish literature|Spanish, Portuguese literature|Portuguese, Galician literatures", "size": 2000},
+   {"name" : "870 Latin literature|Latin & Italic literatures", "size": 2000},
+   {"name" : "880 Classical & modern Greek literatures", "size": 2000},
+   {"name" : "890 Other literatures", "size": 2000}
    ]
   },
   {
-   "name": "History", "size": 4000, 
+   "name": "History & geography", "size": 4000, 
    "children": [
-	{"name": "1", "size": 2000},
-	{"name": "2", "size": 2000}
+	{"name" : "900 Outline of history|History", "size": 2000},
+   {"name" : "910 Geography & travel", "size": 2000},
+   {"name" : "920 Biography & genealogy", "size": 2000},
+   {"name" : "930 Ancient history|History of ancient world (to ca. 499)", "size": 2000},
+   {"name" : "940 History of Europe", "size": 2000},
+   {"name" : "950 History of Asia", "size": 2000},
+   {"name" : "960 History of Africa", "size": 2000},
+   {"name" : "970 History of North America", "size": 2000},
+   {"name" : "980 History of South America", "size": 2000},
+   {"name" : "990 History of other areas", "size": 2000}
    ]
   }
  ]
