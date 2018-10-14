@@ -67,7 +67,7 @@ var hovercard = d3.select('body').append('div')
     .style('opacity', 0)
     .style('width', 400);
 	
-d3.json("MemoryUniverse.json", function(json) {
+d3.json("../../../../scripts/MemoryUniverse.json", function(json) {
   root = json;
   root.fixed = true;
   root.x = w / 2;
