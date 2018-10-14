@@ -13,7 +13,7 @@ image:
 <div id='chart'></div>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script>
+<script type="text/javascript">	
 var total_width = $("#chart").width(),
 	total_height = total_width;
 
