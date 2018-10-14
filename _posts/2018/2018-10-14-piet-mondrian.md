@@ -14,7 +14,7 @@ image:
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script type="text/javascript">	
-var total_width = $("#chart").width(),
+var total_width = 480,
 	total_height = total_width;
 
 var root = d3.select('#chart').append('svg')
