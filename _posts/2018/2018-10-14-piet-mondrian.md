@@ -23,14 +23,14 @@ var root = d3.select('#chart').append('svg')
 	.style('border', '1px solid black');
 	
 var rects=[
-	{x: -total_width/(480/2), y:-total_width/(480/2), w: total_width/(480/200), h:total_width/(480/270), fill: '#C53022'},  //red left up
-	{x: -total_width/(480/2), y:total_width/(480/270), w: total_width/(480/200), h:total_width/(480/212), fill: '#E3E0DF'}, //gray left bottom
-	{x: total_width/(480/200), y:-total_width/(480/2), w: total_width/(480/282), h:total_width/(480/270), fill: '#E3E0DF'}, //gray right up
-	{x: total_width/(480/200), y:total_width/(480/270), w: total_width/(480/244), h:total_width/(480/190), fill: '#E3E0DF'},//gray middle 
-	{x: total_width/(480/200), y:total_width/(480/462), w: total_width/(480/128), h:total_width/(480/22), fill: '#ECBD17'}, //yellow bottom
-	{x: total_width/(480/330), y:total_width/(480/462), w: total_width/(480/114), h:total_width/(480/22), fill: '#DBD6D9'}, //gray bottom
-	{x: total_width/(480/446), y:total_width/(480/270), w: total_width/(480/36), h:total_width/(480/86), fill: '#0D110F'},  //black right
-	{x: total_width/(480/446), y:total_width/(480/358), w: total_width/(480/36), h:total_width/(480/174), fill: '#1B5B9E'}  //blue bottom right
+	{x: -total_width/(480/2), y:-total_width/(480/2), w: total_width/(480/200), h:total_width/(480/270), fill: '#C53022'},
+	{x: -total_width/(480/2), y:total_width/(480/270), w: total_width/(480/200), h:total_width/(480/212), fill: '#E3E0DF'},
+	{x: total_width/(480/200), y:-total_width/(480/2), w: total_width/(480/282), h:total_width/(480/270), fill: '#E3E0DF'},
+	{x: total_width/(480/200), y:total_width/(480/270), w: total_width/(480/244), h:total_width/(480/190), fill: '#E3E0DF'},
+	{x: total_width/(480/200), y:total_width/(480/462), w: total_width/(480/128), h:total_width/(480/22), fill: '#ECBD17'},
+	{x: total_width/(480/330), y:total_width/(480/462), w: total_width/(480/114), h:total_width/(480/22), fill: '#DBD6D9'},
+	{x: total_width/(480/446), y:total_width/(480/270), w: total_width/(480/36), h:total_width/(480/86), fill: '#0D110F'},
+	{x: total_width/(480/446), y:total_width/(480/358), w: total_width/(480/36), h:total_width/(480/174), fill: '#1B5B9E'}
 ];
 	
 root.selectAll('rect')
