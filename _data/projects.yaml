@@ -1,3 +1,19 @@
+- title:  Lending Club analysis
+  desc:   Kaggle challenge Explored->PreProcessed->Modeled->Visualised
+  href:   https://github.com/MichalNawrot/Kaggle/tree/master/LendingClub/notebooks
+  dateStart: 2018-10-15
+  dateEnd: 2018-10-15
+  tags:   [learning, Kaggle]
+  status: done
+
+- title:  Predict the propensity to pay renewal premium
+  desc:   Hackathon from Analytics Vidhya.
+  href:   https://github.com/MichalNawrot/Analytics-Vidhya/blob/master/McKinsey4/notebooks/McKinsey4.ipynb
+  dateStart: 2018-10-15
+  dateEnd: 2018-10-15
+  tags:   [learning, Hackathon, AnalyticsVidhya]
+  status: done
+
 - title:  MemoryUniverse
   desc:   MemoryPalace extention based on Dewey
   href:   https://github.com/MichalNawrot/MemoryUniverse/blob/master/index.html
