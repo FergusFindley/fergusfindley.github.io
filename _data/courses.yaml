@@ -1,3 +1,12 @@
+- title:  DEV 360 - Introduction to Apache Spark (Spark v2.1)
+  level:  intermediate/advanced
+  href:   http://learn.mapr.com/dev-360-introduction-to-apache-spark-spark-v21
+  dateStart: 2018-10-17
+  dateEnd: 
+  tags:   [Spark, MapR Academy]
+  status: in progress
+  rating: _/5
+
 - title:  How to win a Data Science competition - learn from top Kagglers
   level:  intermediate/advanced
   href:   https://www.coursera.org/learn/competitive-data-science
