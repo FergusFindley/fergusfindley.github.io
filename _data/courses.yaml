@@ -1,3 +1,12 @@
+- title:  AI For Everyone
+  level:  basic
+  href:   https://www.coursera.org/learn/ai-for-everyone/
+  dateStart: 2019-03-09
+  dateEnd: 2019-03-09
+  tags:   [AI, Machine Learning, Business]
+  status: done
+  rating: 4/5
+
 - title:  DEV 360 - Introduction to Apache Spark (Spark v2.1)
   level:  intermediate/advanced
   href:   http://learn.mapr.com/dev-360-introduction-to-apache-spark-spark-v21
