@@ -1,3 +1,12 @@
+- title:  Introduction to TensorFlow for AI, ML and DL
+  level:  basic
+  href:   https://www.coursera.org/learn/introduction-tensorflow/
+  dateStart: 2019-03-10
+  dateEnd: 
+  tags:   [AI, Tensorflow, DeepNeuralNetworks, ConvolutionalNeuralNetworks]
+  status: in progress
+  rating: _/5
+
 - title:  AI For Everyone
   level:  basic
   href:   https://www.coursera.org/learn/ai-for-everyone/
